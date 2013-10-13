@@ -1,3 +1,5 @@
+require 'formula'
+
 class HivemqMqttAccesslog < Formula
   homepage 'http://www.hivemq.com/plugin/mqtt-accesslog/'
   url 'http://www.hivemq.com/wp-content/uploads/access-log-1.1.0.zip'
