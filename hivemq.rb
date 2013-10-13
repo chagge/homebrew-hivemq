@@ -9,7 +9,6 @@ class Hivemq < Formula
     cp 'bin/run.sh', 'bin/hivemq'
     libexec.install Dir['*']
     bin.write_exec_script libexec/'bin/hivemq'
-    mkdir libexec/'plugins'
   end
 
   def caveats
