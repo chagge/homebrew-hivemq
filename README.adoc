@@ -1,4 +1,3 @@
-
 == HiveMQ Homebrew Repository
 
 This repository contains link:http://brew.sh/[Homebrew] Formulas for installing HiveMQ and HiveMQ related plugins and tools for MacOSX.
@@ -19,7 +18,7 @@ brew tap hivemq/homebrew-hivemq
 
 After tapping the repository, it's trivial to install HiveMQ and its plugins:
 
-.HiveMQ
+==== HiveMQ
 
 [source,bash]
 .Installing HiveMQ
@@ -28,7 +27,7 @@ brew install hivemq
 ----
 
 
-.HiveMQ Access Log Plugin
+==== HiveMQ Access Log Plugin
 
 [source,bash]
 .Installing the MQTT Access Log Plugin
