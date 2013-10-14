@@ -41,7 +41,7 @@ brew install hivemq-mqtt-accesslog
 [source,bash]
 .Installing the Deny Root Wildcard Subscription Plugin
 ----
-brew instalhivemq-deny-root-wildcard-subscriptions
+brew install hivemq-deny-root-wildcard-subscriptions
 ----
 
 
@@ -51,7 +51,7 @@ brew instalhivemq-deny-root-wildcard-subscriptions
 [source,bash]
 .Installing the File Authentication Plugin
 ----
-brew installhivemq-deny-root-wildcard-subscriptions
+brew install hivemq-file-authentication
 ----
 
 
