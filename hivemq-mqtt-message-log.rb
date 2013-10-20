@@ -11,7 +11,7 @@ class HivemqMqttMessageLog < Formula
 
   def install
     dir = "#{HOMEBREW_PREFIX}/Cellar/hivemq/*"
-    libexec.install Dir['*.jar']
+    libexec.install Dir['**/*.jar']
     Dir.glob(dir) do |directory|
       plugindir =  directory + "/libexec/plugins"
       mkdir plugindir unless File.exists?(plugindir)
