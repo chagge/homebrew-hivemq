@@ -2,8 +2,8 @@ require 'formula'
 
 class Hivemq < Formula
   homepage 'http://www.hivemq.com'
-  url 'http://www.hivemq.com/wp-content/uploads/hivemq-1.4.4.zip'
-  sha1 '389e55d29cb52b752650bf1520c533eb83b1e0b7'
+  url 'http://www.hivemq.com/wp-content/uploads/hivemq-1.5.0.zip'
+  sha1 '4ac7ef891145d64fdeb13581092b77adc4ef221a'
 
   def install
     cp 'bin/run.sh', 'bin/hivemq'
