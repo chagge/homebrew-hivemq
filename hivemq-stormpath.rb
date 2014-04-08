@@ -13,9 +13,6 @@ class HivemqStormpath < Formula
     dir = "#{HOMEBREW_PREFIX}/Cellar/hivemq/*"
     libexec.install Dir['*']
 
-    cp libexec/'sample-configuration/fileAuthConfiguration.properties', libexec
-    cp libexec/'sample-configuration/credentials.properties', libexec
-
     Dir.glob(dir) do |directory|
       plugindir =  directory + "/libexec/plugins"
       mkdir plugindir unless File.exists?(plugindir)
