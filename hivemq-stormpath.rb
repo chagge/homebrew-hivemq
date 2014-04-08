@@ -26,6 +26,6 @@ class HivemqStormpath < Formula
   end
 
   def caveats
-    "Please set your Stormpath Keys properly. The configuration file for the utility can be found here: #{libexec}/stormpath.properties"
+    "Please set your Stormpath Keys properly. The configuration file for Stormpath can be found here: #{libexec}/stormpath.properties"
   end
 end
