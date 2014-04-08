@@ -55,3 +55,12 @@ brew install hivemq-file-authentication
 ----
 
 
+==== HiveMQ Stormpath Plugin
+
+[source,bash]
+.Installing the Stormpath Plugin
+----
+brew install hivemq-stormpath
+----
+
+
