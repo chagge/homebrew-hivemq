@@ -27,6 +27,14 @@ brew install hivemq
 ----
 
 
+==== HiveMQ Message Log Plugin
+
+[source,bash]
+.Installing the MQTT Message Log Plugin
+----
+brew install hivemq-mqtt-message-log
+----
+
 ==== HiveMQ Access Log Plugin
 
 [source,bash]
